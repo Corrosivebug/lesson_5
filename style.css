@@ -1,0 +1,133 @@
+*{
+   list-style: none;
+   margin: 0 ;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+body{
+   background-color: silver;
+}
+.contanier{
+   width: 100%;
+   max-width: 900px;
+   background: url(./img/3ea0ff03af3b42b348eeb0416d6a28d1.jpg);
+}
+.header{
+   border: 5px solid black;
+   width: 600px;
+   background: url(./img/3BBS.gif);
+   height: 150px;
+   margin: 0 auto;
+}
+.top_1{
+   width: 17%;
+   height: 100% ;
+   background-color: silver;
+}
+.top_1 > ul{
+   display: flex;
+   position: relative;
+}
+.top_1 ul li{
+   display: inline-block;
+   background-color: darkblue;
+}
+.top_1 a{
+   text-decoration: none;
+   color: silver;
+   text-align: center;
+   line-height: 60px;
+   font-size: 20px;
+   display: block;
+   width: 175px;
+}
+.top_1 a:hover{
+   background-color: black;
+   border: 1px solid white;
+   color: silver;
+}
+.top_1 ul ul{
+   display: none;
+   position: absolute
+   
+}
+.top_1 ul li:hover > ul{
+   display: block;
+   
+}
+.top_1 ul ul li{
+   width: 175px;
+   display: block;
+   position: relative;
+   
+}
+.top_1 ul ul ul li{
+   position: relative;
+   left: 175px;
+   top: -60px;
+   background-color: red;
+}
+.top_1 ul ul ul ul  ul li{
+   position: relative;
+   left: 175px;
+   top: -60px;
+
+}
+.top_2{
+   width: 25%;
+   height: 100% ;
+   background-color: silver;
+}
+.top_2 > ul{
+   display: flex;
+   position: relative;
+}
+.top_2 ul li{
+   display: inline-block;
+   background-color: red;
+}
+.top_2 a{
+   text-decoration: none;
+   color: silver;
+   text-align: center;
+   line-height: 60px;
+   font-size: 20px;
+   display: block;
+   width: 175px;
+}
+.top_2 a:hover{
+   background-color: black;
+   border: 1px solid white;
+   color: silver;
+}
+.top_2 ul ul{
+   display: none;
+   position: absolute
+}
+.top_2 ul li:hover > ul{
+   display: block;
+}
+.top_2 ul ul li{
+   width: 175px;
+   display: block;
+   position: relative;
+}
+.top_2 ul ul ul li{
+   position: relative;
+   left: -175px;
+   top: -60px;
+   background-color: darkblue;
+}
+.top_2 ul ul ul ul  ul li{
+   position: relative;
+   left: 175px;
+   top: -60px;
+}
+.naz{
+   display: flex;
+   width: 1000px;
+   margin: 0 auto;
+   position: relative;
+   left: 13%;
+}
